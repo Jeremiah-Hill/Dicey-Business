@@ -1,0 +1,58 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    max-width: 640px;
+    margin: 1% auto;
+    border: 1px solid #000;
+}
+
+#controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 1px solid #93a1a1;
+    background-color: #eee;
+}
+#controls > button {
+    margin: 2%;
+    padding: 1%;
+    background-color: #ccc;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#instructions {
+    font-size: 1.2em;
+}
+
+#status {
+    display: flex;
+    justify-content: space-around;
+    min-height: 20px;
+    background-color: #333;
+}
+#status > span {
+    color: #fff;
+    font-size: 2em;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    min-height: 100px;
+    background-color: #eee;
+    border: 1px solid #93a1a1;
+}
+
+.die {
+    display: flex;
+    cursor: pointer;
+}
+.die > span {
+    /* margin: auto; */
+    font-size: 10em;
+}
+
