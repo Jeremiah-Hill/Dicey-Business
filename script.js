@@ -62,7 +62,7 @@ function encapsulator() {
     }
 
     GENERATE_BTN.addEventListener('click', () => {
-        new Die(); // instantiates Die class.
+        new Die();
         let noun = setNoun();
         STATUS.innerHTML = `<span>Number of ${noun}: ${dice.length}</span>`;
     });
